@@ -7,9 +7,6 @@ const API_URL = 'https://book-management-seven-lime.vercel.app/api';
 
 const apiClient = axios.create({
   baseURL: API_URL,
-  headers: {
-    'Content-Type': 'application/json'
-  }
 });
 
 export const bookService = {
