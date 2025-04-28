@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 
-const API_URL = 'https://book-management-seven-lime.vercel.app/';
+const API_URL = 'https://book-management-seven-lime.vercel.app/api';
 
 
 const apiClient = axios.create({
